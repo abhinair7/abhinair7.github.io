@@ -16,8 +16,7 @@ You can now add your website files (HTML, CSS, JavaScript) to this repository, a
 
 ## Basic Structure
 
-- `index.html` - Main homepage
-- `styles.css` - Styling (optional)
+- `index.html` - Main homepage (with inline CSS)
 - `README.md` - This file
 
 Feel free to customize and add more content!
