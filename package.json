@@ -1,0 +1,1 @@
+{\n  "name": "abhinair7.github.io",\n  "version": "1.0.0",\n  "description": "A personal blog and portfolio for Abhishek Vinod Nair.",\n  "scripts": {\n    "start": "http-server .",\n    "build": "npm run build"\n  },\n  "keywords": ["blog", "portfolio", "abhinair7"],\n  "author": "Abhishek Vinod Nair",\n  "license": "MIT"\n}
