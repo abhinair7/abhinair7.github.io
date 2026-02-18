@@ -1,0 +1,114 @@
+/* Voxel Pages Styles */
+
+.voxel-page {
+    background-color: #1a1a1a;
+    min-height: 100vh;
+}
+
+.voxel-main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    line-height: 0;
+    width: 100%;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.voxel-hero {
+    position: relative;
+    line-height: 0;
+}
+
+/* Page Title - Centered above images */
+.voxel-page-title {
+    text-align: center;
+    padding: 120px 20px 60px;
+    background-color: #E8E8E8;
+}
+
+.voxel-page-title h1 {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: clamp(48px, 10vw, 100px);
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.voxel-title {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin: 0;
+    z-index: 10;
+}
+
+.voxel-image {
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 15px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .voxel-title {
+        font-size: 32px;
+        letter-spacing: 4px;
+        top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .voxel-title {
+        font-size: 24px;
+        letter-spacing: 2px;
+        top: 15px;
+    }
+}
+
+/* Voxel Video */
+.voxel-video-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    line-height: 0;
+}
+
+.voxel-video {
+    width: 100%;
+    display: block;
+}
+
+/* Footer Override - Matches dark background */
+.voxel-page .footer-cta {
+    background-color: #1a1a1a;
+    padding: 50px 20px;
+}
+
+.voxel-page .footer-heading {
+    color: #ffffff;
+}
+
+.voxel-page .footer-text {
+    color: #ffffff;
+}
+
+.voxel-page .footer-link {
+    color: #860A22;
+    text-decoration: underline;
+}
+
+.voxel-page .footer-link:hover {
+    color: #860A22;
+    opacity: 0.7;
+}
